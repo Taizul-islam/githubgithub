@@ -29,6 +29,5 @@ async def root(uploaded_file: UploadFile = File(...)):
     return {"result": h}
 
 
-
 def get_app():
     return app
